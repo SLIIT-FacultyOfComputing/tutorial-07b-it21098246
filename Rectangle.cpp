@@ -20,7 +20,7 @@ Rectangle::~Rectangle() {
 
 void Rectangle::display() {
    cout << "Rectangle Area = " << calcArea() << endl;
-}
+} 
 
 int Rectangle::calcArea() {
   return length * width;
